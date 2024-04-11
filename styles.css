@@ -455,13 +455,13 @@ main img {
   }
 
   .pokemonBox .error h4 {
-    font-size: .90rem;
+    font-size: .40rem;
     padding: .500rem;
     margin: .750rem;
   }
   
   .pokemonBox .error img {
-    width: inherit;
+    width: 210px;
   }
 
 }
