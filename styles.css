@@ -5,16 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #CC0000;
+  user-select: none;
 }
 
-body,
-input,
-textarea,
-select,
-button {
-  color: white;
-  font: 400 1rem "Roboto", sans-serif;
-}
 
 button {
   cursor: pointer;
@@ -177,4 +170,297 @@ main img {
 
 .pokemonBox .error img {
   width: inherit;
+}
+
+
+
+
+/* Responsive Section */
+
+
+/* 1300px breakpoint */
+
+
+
+@media (max-width: 1300px) {
+
+
+  main img{
+    width: 240px;
+
+  }
+
+  .searchBox input {
+    border-radius: .850rem 0 0 .850rem;
+    border: none;
+    height: 30px;
+    padding: 1.3rem;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    color: #000;
+  }
+  
+  .searchBox button {
+    border-radius: 0 .850rem .850rem 0;
+    border: 0;
+    height: 36px;
+    padding: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+  }
+
+  .pokemonBox {
+    margin-top: .200rem;
+    gap: 3.1rem;
+    padding: 1rem;
+  }
+  
+  .pokemonBox img {
+    width: 250px;
+  }
+  
+  .pokemonBox img.shiny{
+    width: 120px;
+  }
+
+  .pokemonBox h2.shiny  {
+    font-size: .850rem;
+  }
+  
+
+  .pokemonBox p {
+    margin-top: 1rem;
+  }
+  
+  .pokemonBox .pokemonInfos {
+    height: 350px;
+    padding: 2.2rem;
+    width: 330px;
+    background: whitesmoke;
+    border-radius: 6rem 0 0 6rem;
+    font-weight: 700;
+    box-shadow: 20px 20px 0 black;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h1 {
+    font-size: 1.2rem;
+    padding: 0px 0px .450rem 0px;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h2 {
+    font-size: .80rem;
+    word-spacing: .100rem;
+  }
+  
+  .pokemonBox .pokemonInfos p {
+    margin-top: 1.67rem;
+    font-size: .875rem;
+
+  }
+
+  .pokemonBox .error h4 {
+    font-size: 2.1rem;
+    padding: .500rem;
+    margin: .750rem;
+  }
+  
+  .pokemonBox .error img {
+    width: inherit;
+  }
+  
+
+}
+
+
+/* 768px breakpoint */
+
+
+@media (max-width: 768px) {
+
+  
+
+  main img{
+    width: 160px;
+
+  }
+
+  .searchBox input {
+    border-radius: .850rem 0 0 .850rem;
+    border: none;
+    height: 20px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    color: #000;
+  }
+  
+  .searchBox button {
+    border-radius: 0 .850rem .850rem 0;
+    border: 0;
+    height: 20px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+  }
+
+  .pokemonBox {
+    margin-top: .200rem;
+    gap: 2.9rem;
+    padding: 1rem;
+  }
+  
+  .pokemonBox img {
+    width: 150px;
+  }
+  
+  .pokemonBox img.shiny{
+    width: 80px;
+  }
+
+  .pokemonBox h2.shiny  {
+    font-size: .700rem;
+  }
+  
+
+  .pokemonBox p {
+    margin-top: .85rem;
+  }
+  
+  .pokemonBox .pokemonInfos {
+    height: 300px;
+    padding: 2rem;
+    width: 345px;
+    background: whitesmoke;
+    border-radius: 6rem 0 0 6rem;
+    font-weight: 700;
+    box-shadow: 20px 20px 0 black;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h1 {
+    font-size: 1.15rem;
+    padding: 0px 0px .450rem 0px;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h2 {
+    font-size: .85rem;
+    word-spacing: .100rem;
+  }
+  
+  .pokemonBox .pokemonInfos p {
+    margin-top: .85rem;
+    font-size: .700rem;
+
+  }
+
+  .pokemonBox .error h4 {
+    font-size: 1.8rem;
+    padding: .500rem;
+    margin: .750rem;
+  }
+  
+  .pokemonBox .error img {
+    width: inherit;
+  }
+
+}
+
+
+
+/* 480px breakpoint */
+
+
+@media (max-width: 480px) {
+
+  .pokemonBox {
+    display: flex;
+    margin-top: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: inherit;
+    gap: 2.7rem;
+    position: relative;
+    padding: .9rem;
+  }
+
+  main img{
+    width: 105px;
+
+  }
+
+  .searchBox input {
+    border-radius: .850rem 0 0 .850rem;
+    border: none;
+    height: 10px;
+    padding: .85rem;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    color: #000;
+  }
+  
+  .searchBox button {
+    border-radius: 0 .850rem .850rem 0;
+    border: 0;
+    height: 10px;
+    padding: .85rem;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+  }
+
+  .pokemonBox {
+    margin-top: .200rem;
+    gap: 2.2rem;
+    padding: 1rem;
+  }
+  
+  .pokemonBox img {
+    width: 90px;
+  }
+  
+  .pokemonBox img.shiny{
+    width: 50px;
+  }
+
+  .pokemonBox h2.shiny  {
+    font-size: .350rem;
+  }
+  
+
+  .pokemonBox p {
+    margin-top: .350rem;
+  }
+  
+  .pokemonBox .pokemonInfos {
+    height: 250px;
+    padding: 1.75rem;
+    width: 300px;
+    background: whitesmoke;
+    border-radius: 6rem 0 0 6rem;
+    font-weight: 700;
+    box-shadow: 12px 12px 0 black;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h1 {
+    font-size: .920rem;
+    padding: 0px 0px .450rem 0px;
+  }
+
+  .pokemonBox .pokemonInfos .pokemonHeroInfos h2 {
+    font-size: .85rem;
+    word-spacing: .100rem;
+  }
+  
+  .pokemonBox .pokemonInfos p {
+    margin-top: .65rem;
+    font-size: .610rem;
+
+  }
+
+  .pokemonBox .error h4 {
+    font-size: 1.3rem;
+    padding: .500rem;
+    margin: .750rem;
+  }
+  
+  .pokemonBox .error img {
+    width: inherit;
+  }
+
 }
