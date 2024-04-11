@@ -53,7 +53,7 @@ function getPokemon(e) {
       <div class="error">
       <h4>${user} Blacked Out! </h4>
       <img
-      src="/assets/pokemonNotFound.png"
+      src="./assets/pokemonNotFound.png"
       alt="Pokemon name" class="shiny"
     />
       </div>

@@ -81,7 +81,6 @@ main img {
   height: auto;
   user-select: none;
   position: relative;
-  border-radius: 2rem;
   -drag: none;
             user-select: none;
             -moz-user-select: none;
@@ -382,7 +381,7 @@ main img {
   }
 
   main img{
-    width: 105px;
+    width: 125px;
 
   }
 
@@ -390,7 +389,7 @@ main img {
     border-radius: .850rem 0 0 .850rem;
     border: none;
     height: 10px;
-    padding: .85rem;
+    padding: .75rem;
     background: rgba(255, 255, 255, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.54);
     color: #000;
@@ -400,22 +399,22 @@ main img {
     border-radius: 0 .850rem .850rem 0;
     border: 0;
     height: 10px;
-    padding: .85rem;
+    padding: .75rem;
     border: 1px solid rgba(255, 255, 255, 0.54);
   }
 
   .pokemonBox {
-    margin-top: .200rem;
-    gap: 2.2rem;
+    margin-top: .180rem;
+    gap: 2.1rem;
     padding: 1rem;
   }
   
   .pokemonBox img {
-    width: 90px;
+    width: 120px;
   }
   
   .pokemonBox img.shiny{
-    width: 50px;
+    width: 70px;
   }
 
   .pokemonBox h2.shiny  {
@@ -428,23 +427,25 @@ main img {
   }
   
   .pokemonBox .pokemonInfos {
-    height: 250px;
+    height: 200px;
     padding: 1.75rem;
-    width: 300px;
+    width: 250px;
     background: whitesmoke;
-    border-radius: 6rem 0 0 6rem;
+    border-radius: 0rem 0 0 0rem;
     font-weight: 700;
-    box-shadow: 12px 12px 0 black;
+    box-shadow: 10px 10px 0 black;
   }
 
   .pokemonBox .pokemonInfos .pokemonHeroInfos h1 {
     font-size: .920rem;
     padding: 0px 0px .450rem 0px;
+    background: whitesmoke;
   }
 
   .pokemonBox .pokemonInfos .pokemonHeroInfos h2 {
     font-size: .85rem;
     word-spacing: .100rem;
+    background: whitesmoke;
   }
   
   .pokemonBox .pokemonInfos p {
@@ -454,7 +455,7 @@ main img {
   }
 
   .pokemonBox .error h4 {
-    font-size: 1.3rem;
+    font-size: .90rem;
     padding: .500rem;
     margin: .750rem;
   }
