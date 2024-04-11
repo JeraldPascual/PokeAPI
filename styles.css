@@ -6,6 +6,9 @@
   box-sizing: border-box;
   background-color: #CC0000;
   user-select: none;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
