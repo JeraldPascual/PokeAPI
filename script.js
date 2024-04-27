@@ -31,7 +31,7 @@ function getPokemon(e) {
       <h2 class="shiny">Shiny:</h2>
       <img
         src="${data.sprites.other["showdown"].front_shiny}"
-        alt="Pokemon name" class="shiny"
+        alt="${data.name}" class="shiny"
       />
     </div>
       <div class="pokemonInfos">
